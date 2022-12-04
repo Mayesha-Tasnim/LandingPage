@@ -323,12 +323,17 @@ input[type="email"]::placeholder {
   letter-spacing: -0.2px;
 }
 .form-sec button {
-  width: 90px;
-  height: 68px;
+  width: 93px;
+  height: 74px;
   background-color: #ffa343;
   position: absolute;
-  top: 0;
-  right: 72px;
+  top: -3px;
+  right: 73px;
+  transition: 0.5s ease-in-out;
+}
+.form-sec button:hover {
+  background-color: #eb8d29;
+  transition: 0.5s ease-in-out;
 }
 button {
   cursor: pointer;
